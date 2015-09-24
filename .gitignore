@@ -1,0 +1,31 @@
+# Unity 
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+
+_UpgradeReport_Files/
+# Unity?
+*.pidb
+*.csproj
+*.unityproj
+*.booproj
+UpgradeLog*
+*.dat
+UpgradeLog*
+
+
+# Mac
+*.DS_Store
+*.Thumbs.db.*
+
+# Unity? MonoDevelop?
+*.svd
+*.user
+*.userprefs
+*.suo
+*.sln
+/*.png
+
+Build/
+Assets/ExcludeAssets
+UnitTestResults.xml
