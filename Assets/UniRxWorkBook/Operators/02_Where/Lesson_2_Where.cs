@@ -13,7 +13,7 @@ namespace UniRxWorkBook.Operators
         {
             // _____()の部分を正しい形に置換して、マウスの左クリックをしている間のみCubeが回転するようにしよう
             this.UpdateAsObservable()
-                ._____()
+                .Where(_=>Input.GetMouseButton(0))
                 .Subscribe(_ => RotateCube());
         }
 

@@ -17,7 +17,7 @@ namespace UniRxWorkBook.Operators
 
             // _____を書き換え、最後に文字入力されてから1秒後にresultTextに反映されるようにしてみよう
             inputField
-                .OnValueChangeAsObservable()
+                .OnValueChangedAsObservable()
                 ._____()
                 .SubscribeToText(resultText);
         }

@@ -1,0 +1,170 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/user/Leaning/UniRxWorkBook
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57783
+Successfully changed project path to: /Users/user/Leaning/UniRxWorkBook
+/Users/user/Leaning/UniRxWorkBook
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/user/Leaning/UniRxWorkBook/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-09 08:07:35.588 Unity[54039:11796976] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-09-09 08:07:35.588 Unity[54039:11796976] Metal devices available: 1
+2021-09-09 08:07:35.588 Unity[54039:11796976] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-09-09 08:07:35.588 Unity[54039:11796976] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56039
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002154 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.285 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1147 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.7 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1590.
+Total: 3.221589 ms (FindLiveObjects: 0.322569 ms CreateObjectMapping: 0.077341 ms MarkObjects: 2.740539 ms  DeleteObjects: 0.079179 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UniRxWorkBook/Operators/01_Subscribe/Lesson_1_Subscribe.cs
+  artifactKey: Guid(2cbfca2ee4eb31147a6c1801c5041f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/01_Subscribe/Lesson_1_Subscribe.cs using Guid(2cbfca2ee4eb31147a6c1801c5041f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711682328b27261e94a3a8f8f1ecfe71') in 0.533629 seconds
+  Import took 0.536748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.193459 seconds.
+  path: Assets/Plugins/UniRx
+  artifactKey: Guid(3383dc2200eac404ead725d411fa29a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/UniRx using Guid(3383dc2200eac404ead725d411fa29a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1ed414852e00fbf47343e9c1f87c37') in 0.006240 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003707 seconds.
+  path: Assets/Plugins/UniRx
+  artifactKey: Guid(3383dc2200eac404ead725d411fa29a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/UniRx using Guid(3383dc2200eac404ead725d411fa29a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1ed414852e00fbf47343e9c1f87c37') in 0.005481 seconds
+  Import took 0.018420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 587.866989 seconds.
+  path: Assets/UniRxWorkBook/Operators/09_CombineLatest/Answer/Answer_Lesson_9_CombineLatest.cs
+  artifactKey: Guid(056c759356de6cf428bbba4e072de713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/09_CombineLatest/Answer/Answer_Lesson_9_CombineLatest.cs using Guid(056c759356de6cf428bbba4e072de713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0833df08d4c8f32fcdc03209c82e26a1') in 0.045135 seconds
+  Import took 0.083417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.137219 seconds.
+  path: Assets/UniRxWorkBook/Operators/09_CombineLatest/Lesson_9_CombineLatest.cs
+  artifactKey: Guid(5f45024a78c563a42a7f9de61b53f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/09_CombineLatest/Lesson_9_CombineLatest.cs using Guid(5f45024a78c563a42a7f9de61b53f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8438fcbf65d53df94947b881fb2eb24') in 0.005993 seconds
+  Import took 0.008790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753504 seconds.
+  path: Assets/UniRxWorkBook/Operators/09_CombineLatest/9_CombineLatest.unity
+  artifactKey: Guid(67570f6270c59194a85f3db2a9ea62e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/09_CombineLatest/9_CombineLatest.unity using Guid(67570f6270c59194a85f3db2a9ea62e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359410cb28e5ac5dcef51b515841cd82') in 0.181567 seconds
+  Import took 0.183966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.578524 seconds.
+  path: Assets/UniRxWorkBook/Operators/10_Trottle/Lesson_10_Throttle.cs
+  artifactKey: Guid(9fe2da18f91501d4f8e1b01a57ac71a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/10_Trottle/Lesson_10_Throttle.cs using Guid(9fe2da18f91501d4f8e1b01a57ac71a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff7a0360c529593a936a944fe660e6f') in 0.005829 seconds
+  Import took 0.009154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001059 seconds.
+  path: Assets/UniRxWorkBook/Operators/10_Trottle/Lesson_10_Throttle.cs
+  artifactKey: Guid(9fe2da18f91501d4f8e1b01a57ac71a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/10_Trottle/Lesson_10_Throttle.cs using Guid(9fe2da18f91501d4f8e1b01a57ac71a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff7a0360c529593a936a944fe660e6f') in 0.008473 seconds
+  Import took 0.020200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.552630 seconds.
+  path: Assets/UniRxWorkBook/Operators/10_Trottle/10_Throttle.unity
+  artifactKey: Guid(4570aec754610d84fb9f35469b1a0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/10_Trottle/10_Throttle.unity using Guid(4570aec754610d84fb9f35469b1a0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108b0c8648563aa925485e2f25a6cc08') in 0.005720 seconds
+  Import took 0.008370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.513 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 2.744025 ms (FindLiveObjects: 0.526483 ms CreateObjectMapping: 0.200264 ms MarkObjects: 1.975997 ms  DeleteObjects: 0.039282 ms)
+

@@ -25,7 +25,7 @@ namespace UniRxWorkBook.Operators
             //
             // なお、フレーム数を指定できるThrottleFrameもある
             inputField
-                .OnValueChangeAsObservable()
+                .OnValueChangedAsObservable()
                 .Throttle(TimeSpan.FromSeconds(1))
                 .SubscribeToText(resultText);
         }

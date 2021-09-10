@@ -1,0 +1,306 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/user/Leaning/UniRxWorkBook
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63237
+Successfully changed project path to: /Users/user/Leaning/UniRxWorkBook
+/Users/user/Leaning/UniRxWorkBook
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/user/Leaning/UniRxWorkBook/Assets
+GfxDevice: creating device client; threaded=0
+2021-09-10 07:47:12.052 Unity[76886:12167237] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-09-10 07:47:12.052 Unity[76886:12167237] Metal devices available: 1
+2021-09-10 07:47:12.053 Unity[76886:12167237] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-09-10 07:47:12.054 Unity[76886:12167237] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56886
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002498 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.880 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 3.275295 ms (FindLiveObjects: 0.272825 ms CreateObjectMapping: 0.054730 ms MarkObjects: 2.834777 ms  DeleteObjects: 0.110507 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UniRxWorkBook/Operators/01_Subscribe/Lesson_1_Subscribe.cs
+  artifactKey: Guid(2cbfca2ee4eb31147a6c1801c5041f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/01_Subscribe/Lesson_1_Subscribe.cs using Guid(2cbfca2ee4eb31147a6c1801c5041f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352c756f29fed32ec8ceff254bf88cf9') in 0.655047 seconds
+  Import took 0.658679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/UniRxWorkBook/Operators/01_Subscribe/1_Subscribe.unity
+  artifactKey: Guid(d8a7f159b47ceef4cbbf81dcffea5b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/01_Subscribe/1_Subscribe.unity using Guid(d8a7f159b47ceef4cbbf81dcffea5b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758c9dce647fcd682360ed7de18df14b') in 0.019175 seconds
+  Import took 0.022560 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 2.231080 ms (FindLiveObjects: 0.343607 ms CreateObjectMapping: 0.056394 ms MarkObjects: 1.804516 ms  DeleteObjects: 0.025255 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.560 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 3.978936 ms (FindLiveObjects: 0.367357 ms CreateObjectMapping: 0.226735 ms MarkObjects: 3.355576 ms  DeleteObjects: 0.027027 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 2.914368 ms (FindLiveObjects: 0.411459 ms CreateObjectMapping: 0.126393 ms MarkObjects: 2.354794 ms  DeleteObjects: 0.018399 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.373482 seconds.
+  path: Assets/UniRxWorkBook/Operators/02_Where/Lesson_2_Where.cs
+  artifactKey: Guid(8500ff783ca76ce43a02b8f28eb2d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/02_Where/Lesson_2_Where.cs using Guid(8500ff783ca76ce43a02b8f28eb2d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b0aa2c79b1a46baaaf170623ca25da') in 0.005489 seconds
+  Import took 0.010131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005813 seconds.
+  path: Assets/UniRxWorkBook/Operators/02_Where/Lesson_2_Where.cs
+  artifactKey: Guid(8500ff783ca76ce43a02b8f28eb2d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/02_Where/Lesson_2_Where.cs using Guid(8500ff783ca76ce43a02b8f28eb2d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b0aa2c79b1a46baaaf170623ca25da') in 0.002845 seconds
+  Import took 0.009124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.793846 seconds.
+  path: Assets/UniRxWorkBook/Operators/02_Where/2_Where.unity
+  artifactKey: Guid(8442e278ca05a2f4cbbcd0a7f8839458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/02_Where/2_Where.unity using Guid(8442e278ca05a2f4cbbcd0a7f8839458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3f93aa2e9b56b71d4cef28229e1d62') in 0.021699 seconds
+  Import took 0.039334 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1843.
+Total: 1.829942 ms (FindLiveObjects: 0.176586 ms CreateObjectMapping: 0.045839 ms MarkObjects: 1.586556 ms  DeleteObjects: 0.019441 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 4.315068 ms (FindLiveObjects: 1.905576 ms CreateObjectMapping: 0.193292 ms MarkObjects: 2.188982 ms  DeleteObjects: 0.023095 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1849.
+Total: 2.077197 ms (FindLiveObjects: 0.254259 ms CreateObjectMapping: 0.046982 ms MarkObjects: 1.721101 ms  DeleteObjects: 0.052275 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1852.
+Total: 1.826637 ms (FindLiveObjects: 0.232429 ms CreateObjectMapping: 0.047230 ms MarkObjects: 1.524675 ms  DeleteObjects: 0.020489 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.391748 seconds.
+  path: Assets/UniRxWorkBook/Operators/03_SkipUntil/3_SkipUntil.unity
+  artifactKey: Guid(88fd58117ae551445a380efb412cf2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/03_SkipUntil/3_SkipUntil.unity using Guid(88fd58117ae551445a380efb412cf2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d989b75f0e66f5f339c7966ca0fd75e') in 0.018358 seconds
+  Import took 0.035869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.064545 seconds.
+  path: Assets/UniRxWorkBook/Operators/03_SkipUntil/Lesson_3_SkipUntil.cs
+  artifactKey: Guid(2b975615140b3da4a81fffc7b8e7a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/03_SkipUntil/Lesson_3_SkipUntil.cs using Guid(2b975615140b3da4a81fffc7b8e7a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70270f12653ff276fbab7987e27eb17') in 0.007257 seconds
+  Import took 0.011916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004094 seconds.
+  path: Assets/UniRxWorkBook/Operators/03_SkipUntil/Lesson_3_SkipUntil.cs
+  artifactKey: Guid(2b975615140b3da4a81fffc7b8e7a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniRxWorkBook/Operators/03_SkipUntil/Lesson_3_SkipUntil.cs using Guid(2b975615140b3da4a81fffc7b8e7a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70270f12653ff276fbab7987e27eb17') in 0.003410 seconds
+  Import took 0.007664 seconds .
+

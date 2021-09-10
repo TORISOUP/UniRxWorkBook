@@ -17,8 +17,8 @@ namespace UniRxWorkBook.Operators
         private Text resultLabel;
         private void Start()
         {
-            var leftStream = leftInput.OnValueChangeAsObservable().Select(x => Int32.Parse(x));
-            var rightStream = rightInput.OnValueChangeAsObservable().Select(x => Int32.Parse(x));
+            var leftStream = leftInput.OnValueChangedAsObservable().Select(x => Int32.Parse(x));
+            var rightStream = rightInput.OnValueChangedAsObservable().Select(x => Int32.Parse(x));
 
             // ZipをCombineLatestに書き換えれば良い
             // Zipは複数のストリームのメッセージが1つずつ揃った時に放出するものであったが、

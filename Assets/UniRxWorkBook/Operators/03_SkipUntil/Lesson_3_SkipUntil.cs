@@ -14,7 +14,7 @@ namespace UniRxWorkBook.Operators
 
             // _____()の部分を正しい形に置換して、マウスのクリックが1度でも来たら回転が始まるようにしよう
             this.UpdateAsObservable()
-                ._____()
+                .SkipUntil(Par=>clickStream)
                 .Subscribe(_ => RotateCube());
         }
 
